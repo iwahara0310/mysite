@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="wrap">
+      <h1 class="logo-image"><img src="/logo.svg" alt="" /></h1>
+      <ul>
+        <a href="#about"><li>About</li></a>
+        <a href="#work"><li>Works</li></a>
+        <a href="#"><li>News</li></a>
+        <a href="#"><li>Contact</li></a>
+        <a href="#">
+          <li><img src="/instagram.svg" alt="" /></li>
+        </a>
+      </ul>
+    </header>
+    <main>
+      <div class="mainvisual">
+        <img src="/mainvisual-pc.jpg" alt="" />
+      </div>
+      <section id="about" class="wrap">
+        <h2 class="text">About</h2>
+        <p class="abou-text">
+          Xxxxx Ashley <br />
+          <br />
+          2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031
+          Japan <br />
+          tel: 000-0000-0000 <br />
+          url: www.xxxxxx.jp <br />
+          mail: xxx@xxxxxx.jp <br />
+          <br />
+          プロフィールテキストテキストテキスト
+          テキストテキストテキストテキストテキ ストテキストスト
+          テキストテキストテキ ストテキストテキストテキストテキストテ
+          キストテキストテキストテキスト テキス
+          トテキストテキストテキストテキストテ
+          キストテキストテキストテキストテキス トテキスト
+        </p>
+      </section>
+      <section id="work" class="wrap">
+        <h2 class="text">Works</h2>
+        <nav class="work-image">
+          <ul class="top-image">
+            <li><img src="/works1.jpg" alt="" /></li>
+            <li><img src="/works2.jpg" alt="" /></li>
+            <li><img src="/works3.jpg" alt="" /></li>
+          </ul>
+          <ul class="bottom-image">
+            <li><img src="/works4.jpg" alt="" /></li>
+            <li><img src="/works5.jpg" alt="" /></li>
+            <li><img src="/works6.jpg" alt="" /></li>
+          </ul>
+        </nav>
+      </section>
+      <section id="news" class="wrap">
+        <h2 class="text">News</h2>
+        <div class="topic">
+          <dl>
+            <dt>2020.XX.XX</dt>
+            <dd>
+              デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。
+            </dd>
+          </dl>
+          <dl>
+            <dt>2020.XX.XX</dt>
+            <dd>
+              ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。
+            </dd>
+          </dl>
+          <dl>
+            <dt>2019.XX.XX</dt>
+            <dd>
+              【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト
+            </dd>
+          </dl>
+          <dl>
+            <dt>2019.XX.XX</dt>
+            <dd>
+              デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。
+            </dd>
+          </dl>
+          <dl>
+            <dt>2019.XX.XX</dt>
+            <dd>
+              【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト
+            </dd>
+          </dl>
+        </div>
+      </section>
+      <section id="contact" class="wrap">
+        <h2 class="text">Contact</h2>
+        <form action="/check.html" method="POST">
+          <dl>
+            <dt class="from">
+              <label class="username" for="username">NAME</label>
+            </dt>
+            <dd class="textarea">
+              <input id="username" type="text" name="name" />
+            </dd>
+            <dt class="from">
+              <label class="email" for="email">E-mail</label>
+            </dt>
+            <dd class="textarea">
+              <input id="email" type="email" name="email" />
+            </dd>
+            <dt class="from">
+              <label class="mes" for="text">MESSAGE</label>
+            </dt>
+            <dd class="textarea">
+              <textarea id="mess"></textarea>
+            </dd>
+          </dl>
+
+          <div class="btn">
+            <button type="submit">送信する</button>
+          </div>
+        </form>
+      </section>
+
+      <footer>
+        <p>&copy;2020 My work</p>
+      </footer>
+    </main>
+  </body>
+</html>
